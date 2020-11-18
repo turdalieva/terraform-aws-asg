@@ -1,8 +1,3 @@
-# terraform-iaac-august-2020
-###  This module is used to create ASG +  ELB. 
-####  Please Use below code to create ASG
-
-```
 module "webapp" {
   source           = "../class4"
   region           = "us-east-1"
